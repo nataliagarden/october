@@ -1,3 +1,7 @@
+body {
+	margin: 0;
+}
+
 .headingone{
 
 	font-family: 'Indie Flower', cursive;
@@ -5,6 +9,7 @@
 	border-right: 2px solid pink;
 	width:450px;
 	text-align: center;
+	box-shadow: 2px 2px red;
 	
 }
 
@@ -18,4 +23,12 @@
 }
 .marg {
 	margin: 10px;
+}
+
+img {
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
 }
